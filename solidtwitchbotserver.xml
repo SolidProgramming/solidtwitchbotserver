@@ -12,13 +12,13 @@
   <Overview>Server for multi hosting Twitch Bots written in C# with Browser GUI&#xD;
 </Overview>
   <Category>Other: Status:Beta</Category>
-  <WebUI>https://[IP]:[PORT:80]</WebUI>
+  <WebUI>https://[IP]:[PORT:443]</WebUI>
   <TemplateURL/>
   <Icon/>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1617032787</DateInstalled>
+  <DateInstalled>1617033583</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Description>Server for multi hosting Twitch Bots written in C# with Browser GUI&#xD;
