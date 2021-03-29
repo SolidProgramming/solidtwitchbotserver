@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>solidtwitchbotserver</Name>
-  <Repository>solidprogramming / solidtwitchbotserver</Repository>
+  <Repository>solidprogramming/solidtwitchbotserver</Repository>
   <Registry>https://hub.docker.com/r/solidprogramming/solidtwitchbotserver</Registry>
-  <Network>bridge</Network>
-  <MyIP/>
+  <Network>br0</Network>
+  <MyIP>192.168.1.17</MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support/>
@@ -18,16 +18,23 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1617031677</DateInstalled>
+  <DateInstalled>1617032400</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Description>Server for multi hosting Twitch Bots written in C# with Browser GUI&#xD;
 </Description>
   <Networking>
-    <Mode>bridge</Mode>
-    <Publish/>
+    <Mode>br0</Mode>
+    <Publish>
+      <Port>
+        <HostPort>5001</HostPort>
+        <ContainerPort/>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
   </Networking>
   <Data/>
   <Environment/>
   <Labels/>
+  <Config Name="Host Port 1" Target="" Default="" Mode="tcp" Description="Container Port: " Type="Port" Display="always" Required="false" Mask="false">5001</Config>
 </Container>
