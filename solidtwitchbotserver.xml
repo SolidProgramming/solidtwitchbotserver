@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>solidtwitchbotserver</Name>
+  <Repository>solidprogramming / solidtwitchbotserver</Repository>
+  <Registry>https://hub.docker.com/r/solidprogramming/solidtwitchbotserver</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview>Server for multi hosting Twitch Bots written in C# with Browser GUI&#xD;
+</Overview>
+  <Category>Other: Status:Beta</Category>
+  <WebUI>https://[IP]:[PORT:5001]</WebUI>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1617031677</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>Server for multi hosting Twitch Bots written in C# with Browser GUI&#xD;
+</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Data/>
+  <Environment/>
+  <Labels/>
+</Container>
