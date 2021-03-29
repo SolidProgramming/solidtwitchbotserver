@@ -12,22 +12,29 @@
   <Overview>Server for multi hosting Twitch Bots written in C# with Browser GUI&#xD;
 </Overview>
   <Category>Other: Status:Beta</Category>
-  <WebUI>https://[IP]:[PORT:443]</WebUI>
+  <WebUI>http://[IP]</WebUI>
   <TemplateURL/>
   <Icon/>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1617033583</DateInstalled>
+  <DateInstalled>1617034222</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Description>Server for multi hosting Twitch Bots written in C# with Browser GUI&#xD;
 </Description>
   <Networking>
     <Mode>br0</Mode>
-    <Publish/>
+    <Publish>
+      <Port>
+        <HostPort>4444</HostPort>
+        <ContainerPort/>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
   </Networking>
   <Data/>
   <Environment/>
   <Labels/>
+  <Config Name="Twitch" Target="" Default="" Mode="tcp" Description="Container Port: " Type="Port" Display="always" Required="false" Mask="false">4444</Config>
 </Container>
