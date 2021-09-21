@@ -14,27 +14,27 @@
   <Category>Other: Status:Beta</Category>
   <WebUI>http://[IP]</WebUI>
   <TemplateURL/>
-  <Icon/>
+  <Icon>https://forum.howrsebot.de/assets/avatars/TAWyHhuC1jzxNHMa.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1617034222</DateInstalled>
+  <DateInstalled>1632249293</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Description>Server for multi hosting Twitch Bots written in C# with Browser GUI&#xD;
 </Description>
   <Networking>
     <Mode>br0</Mode>
-    <Publish>
-      <Port>
-        <HostPort>4444</HostPort>
-        <ContainerPort/>
-        <Protocol>tcp</Protocol>
-      </Port>
-    </Publish>
+    <Publish/>
   </Networking>
-  <Data/>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/twitchbotserver/</HostDir>
+      <ContainerDir>/app/appdata</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
   <Environment/>
   <Labels/>
-  <Config Name="Twitch" Target="" Default="" Mode="tcp" Description="Container Port: " Type="Port" Display="always" Required="false" Mask="false">4444</Config>
+  <Config Name="Config Folder Path" Target="/app/appdata" Default="" Mode="rw" Description="Container Path: /app/appdata" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/twitchbotserver/</Config>
 </Container>
